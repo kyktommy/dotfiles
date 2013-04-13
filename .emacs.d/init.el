@@ -1,0 +1,45 @@
+;; Turn off UI
+(if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
+(if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
+(if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
+
+;; No splash screen
+(setq inhibit-startup-message t)
+
+;; Font size
+(set-default-font "menlo-14")
+
+;; Show line number
+(global-linum-mode t)
+
+;; auto-indent
+(add-hook 'lisp-mode-hook '(lambda ()
+      (local-set-key (kbd "RET") 'newline-and-indent)))
+
+;; ido - better finder 
+(require 'ido)
+(ido-mode t)
+
+;; Theme setting
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+(load-theme 'zenburn t)
+
+
+;; Write backup files to own directory
+(setq backup-directory-alist
+      `(("." . ,(expand-file-name
+		 (concat user-emacs-directory "backups")))))
+
+;; Make backups of files, even when they're in version control
+(setq vc-make-backup-files t)
+
+;; Save point position between sessions
+(require 'saveplace)
+(setq-default save-place t)
+(setq save-place-file (expand-file-name ".places" user-emacs-directory))
+
+;; Key binding
+(global-set-key (kbd "M-j")
+		(lambda ()
+		  (interactive)
+		  (join-line -1)))

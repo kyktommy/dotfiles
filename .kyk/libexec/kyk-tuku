@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require 'open-uri'
+require 'nokogiri'
+
+Nokogiri::HTML(open("http://www.tuku.cc/top/top1.htm"))
+  .search(".w5")
+  .each { |item| puts item.text }
+
+puts ""
+puts "END"
+puts ""
+puts ""

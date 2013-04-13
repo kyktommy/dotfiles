@@ -1,0 +1,40 @@
+#!/usr/bin/env ruby
+
+require 'thor'
+
+class Todo < Thor
+  desc "add", "Add <todo> into list" 
+  def add(*todos)
+    open_todo("a") do |f|
+      todos.each_with_index do |todo, index|
+        f.puts "#{line_count+1+index}. #{todo}"
+      end
+    end
+  end
+
+  desc "list", "Show all todos"
+  def list
+    open_todo do |f|
+      f.each_line {|line| puts line}
+    end
+  end
+
+  desc "clear", "Clear all todo"
+  def clear
+    open_todo("w") {}
+  end
+
+  private
+
+  def open_todo(permission = "r")
+    File.open("todo", permission) do |f|
+      yield f
+    end
+  end
+
+  def line_count
+    IO.readlines("todo").size 
+  end
+end
+
+Todo.start ARGV

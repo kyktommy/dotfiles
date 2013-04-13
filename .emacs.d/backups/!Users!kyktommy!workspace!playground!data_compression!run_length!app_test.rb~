@@ -1,0 +1,37 @@
+require './run_length'
+require 'minitest/autorun'
+
+describe RunLength do
+
+  before do 
+    @compression = RunLength.new
+  end
+  
+  it "should works empty length" do
+    @compression.compress("").must_equal ""
+  end
+
+  it "should works 3 repeat code" do
+    @compression.compress("AAABBBCCC").must_equal "r3Ar3Br3C" 
+  end
+
+  it "works with spaces" do
+    @compression.compress(" ").must_equal "n"
+  end
+
+  it "works with spaces" do
+    @compression.compress("  ").must_equal "n2"
+  end
+
+  it "should works with no repeat" do
+    @compression.compress("ABC").must_equal "n3ABC"
+  end
+
+  it "should works with less than 3 repeat" do
+    @compression.compress("AA").must_equal "AA"
+  end
+
+  it "works complex" do
+    @compression.compress("AAABBB  REWRFE").must_equal "r3Ar3Bn2n6REWRFE"
+  end
+end

@@ -1,0 +1,20 @@
+require "net/http"
+require "uri"
+require "csv"
+require "date"
+
+class FetchStockuri
+
+  def get_by_number(number)
+    URI.parse("http://ichart.yahoo.com/table.csv?s=1288.HK")
+    response = Net::HTTP.get_response(uri)
+    csv = CSV.parse(response.body, headers: true)
+    csv.each do |row|
+      date = Date.parse(row['Date'])
+      # Show One Year
+      if date > (Date.today - 365)
+        puts "#{date}, #{row['High']}"
+      end
+    end
+  end
+end

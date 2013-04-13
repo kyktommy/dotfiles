@@ -1,0 +1,10 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("PhotoSeach"
+ (filename . "~/Desktop/draft/bbjs.html")
+ (front-context-string . "var PhotoSearch ")
+ (rear-context-string . "Photo	\n		});\n\n		")
+ (position . 1240))
+)

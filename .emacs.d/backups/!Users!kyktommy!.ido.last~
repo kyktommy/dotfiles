@@ -1,0 +1,142 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/kyktommy/Desktop/whatIsIt/stock_king/app/views/" . "stocks/")
+ ("/Users/kyktommy/Desktop/whatIsIt/stock_king/" . "app/")
+ ("/Users/kyktommy/Desktop/whatIsIt/" . "stock_king/")
+ ("/Users/kyktommy/Desktop/whatIsIt/stock_king/app/" . "models/")
+ ("/Users/kyktommy/workspace/playground/data_compression/" . "run_length/")
+ ("/Users/kyktommy/Code/wtf_testing/app/" . "models/")
+ ("/Users/kyktommy/Code/wtf_testing/" . "app/")
+ ("/Users/kyktommy/Code/" . "wtf_testing/")
+ ("/Users/" . "kyktommy/")
+ ("/" . "Users/")
+ ("/Users/kyktommy/workspace/playground/emberjs/" . "tweets/")
+ ("/Users/kyktommy/workspace/playground/" . "emberjs/")
+ ("/Users/kyktommy/workspace/" . "playground/")
+ ("/Users/kyktommy/Desktop/draft/" . "appsFarm/")
+ ("/Users/kyktommy/" . "Desktop/")
+ ("/Users/kyktommy/Desktop/" . "whatIsIt/")
+ ("/Users/kyktommy/play/java/" . "jvm/")
+ ("/Users/kyktommy/play/" . "java/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/kyktommy/Desktop/whatIsIt/stock_king/app/models/"
+ "/Users/kyktommy/Desktop/whatIsIt/stock_king/app/controllers/"
+ "/Users/kyktommy/Desktop/whatIsIt/stock_king/config/"
+ "/Users/kyktommy/Desktop/whatIsIt/stock_king/app/views/stocks/"
+ "/Users/kyktommy/Desktop/whatIsIt/stock_king/"
+ "/Users/kyktommy/Desktop/whatIsIt/"
+ "/Users/kyktommy/Desktop/peepcode-ember-starter-app/js/"
+ "/Users/kyktommy/workspace/playground/emberjs/tweets/"
+ "/Users/kyktommy/workspace/playground/emberjs/"
+ "/Users/kyktommy/Code/"
+ "/Users/kyktommy/workspace/playground/data_compression/run_length/"
+ "/Users/kyktommy/Code/wtf_testing/app/models/"
+ "/Users/kyktommy/.emacs.d/"
+ "/www.kaxinity.com:"
+ "/Users/kyktommy/Code/arithmetic_coding/"
+ "/Users/kyktommy/.emacs.d/themes/"
+ "/Users/kyktommy/Desktop/"
+ "/Users/"
+ "/Users/kyktommy/Desktop/jbuilder-test/"
+ "/Users/kyktommy/Desktop/css-compass/"
+ "/Users/kyktommy/Desktop/draft/"
+ "/Users/kyktommy/Desktop/draft/appsFarm/"
+ "/Users/kyktommy/play/java/jvm/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "fetch_stock.rb"
+ "stock.rb"
+ "stocks_controller.rb"
+ "routes.rb"
+ "show.html.erb"
+ "Gemfile"
+ "app.js"
+ "run.rb"
+ "run_length.rb"
+ "app_test.rb"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/kyktommy/Desktop/whatIsIt/stock_king/app/controllers/" (20772 56613) "stocks_controller.rb" "application_controller.rb" "../" "./")
+
+ ("/Users/kyktommy/Desktop/whatIsIt/stock_king/app/models/" (20772 56759) "stock.rb" ".gitkeep" "../" "./")
+
+ ("/Users/kyktommy/Desktop/whatIsIt/stock_king/config/" (20772 56438) "routes.rb" "locales/" "initializers/" "environments/" "environment.rb" "database.yml" "boot.rb" "application.rb" "../" "./")
+
+ ("/Users/kyktommy/.emacs.d/" (20748 38811) "vendor/" "tramp" "themes/" "tar.sh" "starter-kit.el" "starter-kit-pkg.el" "starter-kit-misc.el" "starter-kit-defuns.el" "README.markdown" "modules/" "init.el~" "init.el" "eshell/" "COPYING" "changelog.md~" "changelog.md" "bookmarks" "backups/" "auto-save-list/" ".places" ".DS_Store" "#README.markdown#" "../" "./")
+
+ ("/Users/kyktommy/Desktop/whatIsIt/stock_king/app/views/stocks/" (20772 56341) "show.html.erb" "../" "./")
+
+ ("/Users/kyktommy/workspace/playground/data_compression/run_length/" (20760 39256) "run_length.rb" "app_test.rb" "../" "./")
+
+ ("/Users/kyktommy/Code/" (20771 14323) "y-combinator.rb" "SublimeTextTest/" "shannon_fano.rb" "my_day.rb" "jump_start_sinatra/" "js-test/" "js/" "fp.rb" "doof_api/" "arithmetic_coding/" ".DS_Store" "../" "./")
+
+ ("/Users/kyktommy/workspace/playground/emberjs/" (20744 35885) "tweets/" ".DS_Store" "../" "./")
+
+ ("/Users/kyktommy/workspace/playground/emberjs/tweets/" (20744 49734) "notes.js" "index.html" "app.js" "../" "./")
+
+ ("/Users/kyktommy/Desktop/whatIsIt/stock_king/app/views/" (20772 55957) "stocks/" "layouts/" "../" "./")
+
+ ("/usr/" (20512 39650) "X11R6/" "X11/" "texbin/" "standalone/" "share/" "sbin/" "local/" "llvm-gcc-4.2/" "libexec/" "lib/" "include/" "bin/" "../" "./")
+
+ ("/Users/kyktommy/" (20772 55955) "workspace/" "weka.log" "VirtualBox VMs/" "vagrant/" "umbrella0.log" "tmp/" "Start Menu/" "SqlViewerHistory.props" "Public/" "Pictures/" "nvm/" "npm" "node_modules/" "My Documents/" "Music/" "Movies/" "Mail/" "LondonU/" "Local Settings/" "Library/" "Google Drive/" "gist.tag.html" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Code/" "book/" "blogg.info" "bin/" "aws/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump" ".yeoman/" ".Xauthority" ".viper~" ".viper" ".vimrc" ".viminfz.tmp" ".viminfy.tmp" ".viminfx.tmp" ".viminfw.tmp" ".viminfv.tmp" ".viminfu.tmp" ".viminfo.tmp" ".viminfo" ".vimgolf/" ".vim/" ".vagrant.d/" ".Trash/" ".tomighty/" ".tmux.conf.backup" ".tmux.conf" ".swt/" ".swipl-dir-history/" ".subversion_IDEA/" ".subversion/" ".ssh/" ".sqlite_history" ".shsh/" ".sh_history" ".scala_history" ".rspec" ".rnd" ".repopickle_.gitconfig" ".repoconfig/" ".recentf" ".rbenv/" ".pry_history" ".profile" ".pps/" ".powrc" ".powenv" ".powconfig" ".pow/" ".phpsh/" ".oh-my-zsh/" ".npm/" ".node_libraries/" ".node-gyp/" ".netrc" ".NERDTreeBookmarks" ".mysql_history" ".mplayer/" ".m2/" ".local/" ".lesshst" ".jist" ".irb-history" ".ido.last~" ".ido.last" ".heroku/" ".gitconfig" ".ghc/" ".gem/" ".gdb_history" ".fontconfig/" ".fire-app/" ".filezilla/" ".emacs~" ".emacs.d.bak/" ".emacs.d/" ".emacs-places" ".eclipse_keyring" ".DS_Store" ".drush/" ".dropbox/" ".dbshell" ".config/" ".compass/" ".cocoapods/" ".CFUserTextEncoding" ".bower/" ".bashrc" ".bash_history" ".android/" ".adobe/" "../" "./")
+
+ ("/Users/kyktommy/Desktop/" (20772 55127) "《尽管去做-无压工作的艺术》.pdf" "whatIsIt/" "table (1).csv" "study/" "Screen Shot 2013-02-20 at 10.01.57 PM.png" "Research/" "daily/" "[rutracker.org].t4325121.torrent" ".sass-cache/" ".localized" ".DS_Store" "$RECYCLE.BIN/" "../" "./")
+
+ ("/Users/kyktommy/Desktop/whatIsIt/stock_king/app/assets/" (20772 55605) "stylesheets/" "javascripts/" "images/" "../" "./")
+
+ ("/Users/kyktommy/Desktop/whatIsIt/stock_king/app/" (20772 55605) "views/" "models/" "mailers/" "helpers/" "controllers/" "assets/" "../" "./")
+
+ ("/Users/kyktommy/Desktop/whatIsIt/stock_king/" (20772 55667) "vendor/" "tmp/" "test/" "script/" "README.rdoc" "Rakefile" "public/" "log/" "lib/" "Gemfile.lock" "Gemfile" "doc/" "db/" "config.ru" "config/" "app/" ".gitignore" "../" "./")
+
+ ("/Users/kyktommy/Desktop/whatIsIt/" (20772 55605) "stock_king/" "stock.rb" "cat.txt" "../" "./")
+
+ ("/Users/kyktommy/Desktop/peepcode-ember-starter-app/js/" (20747 39533) "models.js" "libs/" "app.js" ".DS_Store" "../" "./")
+
+ ("/Users/kyktommy/Desktop/peepcode-ember-starter-app/" (20747 39533) "js/" "index.html" "img/" "favicon.ico" "css/" "bin/" ".jshintrc" "../" "./")
+
+ ("/Users/kyktommy/Code/arithmetic_coding/" (20737 6091) "arithmetic.rb" "../" "./")
+
+ ("/Users/kyktommy/Code/wtf_testing/app/models/" (20741 24357) "open_food_category.rb.gz" ".gitkeep" "../" "./")
+
+ ("/Users/kyktommy/workspace/playground/data_compression/" (20694 61353) "simple_compress/" "run_length/" "huffman_coding/" "../" "./")
+
+ ("/Users/kyktommy/workspace/playground/" (20699 65016) "yeoman/" "ruby/" "rss-podcast/" "rails/" "prolog/" "play/" "parse_calendar/" "osxApp/" "nodejs/" "middleman-playing/" "jruby/" "go/" "gem-playing/" "emberjs/" "data_compression/" "C/" "bbb/" "angularjs/" ".DS_Store" "../" "./")
+
+ ("/Users/kyktommy/workspace/" (20732 10957) "work/" "website-templates/" "web-design/" "Resources/" "Research/" "Premium Bundle/" "playground/" "photography/" "opengl/" "open-source/" "octopress/" "iphone/" "desk/" "design/" "blog/" "animation/" "androidSDK/" "academic/" ".DS_Store" "../" "./")
+
+ ("/Users/kyktommy/.emacs.d/themes/" (20735 63541) "zenburn-theme.el" "solarized-light-theme.el" "solarized-definitions.el" "solarized-dark-theme.el" "README.md" "makepkg.sh" "LICENSE" "color-theme-tango.el" "color-theme-solarized.el" "color-theme-solarized-pkg.el" ".DS_Store" "../" "./")
+
+ ("/Users/kyktommy/Code/wtf_testing/app/" (20733 14755) "views/" "models/" "mailers/" "helpers/" "controllers/" "assets/" "../" "./")
+
+ ("/Users/kyktommy/Code/wtf_testing/" (20733 14784) "vendor/" "tmp/" "test/" "script/" "README.rdoc" "Rakefile" "public/" "log/" "lib/" "Gemfile.lock" "Gemfile" "doc/" "db/" "config.ru" "config/" "app/" ".gitignore" "../" "./")
+
+ ("/Users/kyktommy/workspace/playground/go/" (20729 9265) "hello.go" "goroutines.go" "../" "./")
+
+ ("/Users/" (20499 63768) "Shared/" "kyktommy/" ".localized" "../" "./")
+
+ ("/Users/kyktommy/Desktop/jbuilder-test/" (20577 11106) "../" "./")
+
+ ("/Users/kyktommy/play/java/jvm/" (20450 62438) "say_hello.rb" "RuntimeMemory.java" "RuntimeMemory.class" "RuntimeGarbageCollection.java" "RuntimeGarbageCollection.class" "RuntimeGarbageCollection$ShutdownHook.class" "RuntimeExec.java" "RuntimeExec.class" "#RuntimeExec.java#" "../" "./")
+
+ ("/Users/kyktommy/Desktop/draft/" (20451 58850) "webapplicationjs/" "sqlite/" "ruby-play/" "ruby-module/" "ruby-get-img-from-html/" "ruby-dsl/" "rails/" "mframe/" "magazine_demo/" "jswebapplication/" "js.html" "jquery_plugin/" "jquery_mobile/" "jquery_demo/" "index.html" "html5Video/" "fetch_app/" "fb_app/" "css-target.html" "css-box-shadow.html" "coffee/" "clone_michaeljansen_net/" "bootstrap_demo/" "bbjs.html" "backbonejs/" "appsFarm/" ".DS_Store" "#bbjs.html#" "../" "./")
+
+ ("/Users/kyktommy/Desktop/css-compass/" (20519 15020) "stylesheets/" "scss/" "sass/" "index.html" "images/" "css/" "config.rb" ".sass-cache/" ".DS_Store" "../" "./")
+
+ ("/Users/kyktommy/Desktop/draft/appsFarm/" (20451 21079) "views/" "test.rb~" "test.rb" "models/" "model_setup.rb" "Gemfile.lock" "Gemfile" "appsFarm.sqlite" "app.rb" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/kyktommy/play/java/" (20449 62742) "jvm/" "java_person/" "java-exception/" "Java-class-practice/" "../" "./")
+
+ ("/Users/kyktommy/play/" (20449 62706) "web_design_em/" "typing-playground/" "sell_war_hammer/" "scala/" "ruby/" "rspec_practice/" "rails_forum/" "python_newbie/" "paypal_html/" "obj-c/" "nodejs_proxy_server/" "nodejs/" "node_http_response/" "nbody-js/" "jquery_post/" "java/" "helloworld/" "fuelphp/" "dice.rb" "css3_ordered_list_styles/" "c++/" "box2d_js_playground/" "bloog/" "backbone_pratice/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

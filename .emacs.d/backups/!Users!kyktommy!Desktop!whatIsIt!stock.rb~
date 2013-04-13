@@ -1,0 +1,7 @@
+require "net/http"
+require "uri"
+
+uri = URI.parse("http://ichart.yahoo.com/table.csv?s=1288.HK")
+response = Net::HTTP.get_response(uri)
+puts response.body
+
