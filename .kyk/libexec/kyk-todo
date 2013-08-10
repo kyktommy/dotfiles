@@ -27,8 +27,12 @@ class Todo < Thor
   private
 
   def open_todo(permission = "r")
-    File.open("todo", permission) do |f|
-      yield f
+    begin
+      File.open("todo", permission) do |f|
+        yield f
+      end
+    rescue
+      open_todo("w+") {|f| f.write("created")}
     end
   end
 

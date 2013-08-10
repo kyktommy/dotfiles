@@ -4,11 +4,15 @@
 .map { |lib| require lib }
 
 class App < Thor
+  
+  default_task :stock
 
-  desc "stock", "query stock detail <NUMBER>"
-  def stock(number)
+  desc "stock", "query stock detail"
+  def stock
+    print 'Number > '
+    number = gets 
     print_stock_table do |t|
-      t << latest_stock_price(number)
+      t << latest_stock_price(number.to_i)
     end
   end
 

@@ -4,7 +4,6 @@ set shiftwidth=2
 set expandtab
 set enc=utf8
 set gfn=Bitsream\ Vera\ Sans\ Mono':h20
-set paste
 set hlsearch
 set incsearch
 set showmatch
@@ -52,8 +51,6 @@ set enc=utf8
 " set autochdir
 " autocmd BufEnter * silent! lcd %:p:h
 
-"\n open NERDTree
-nnoremap <leader>n :NERDTree<CR>
 
 "clipboard
 set clipboard=unnamed
@@ -64,13 +61,6 @@ call pathogen#infect()
 "zencoding 
 let g:user_zen_expandabbr_key = '<c-e>'
 let g:use_zen_complete_tag = 1
-
-"map arrow key
-noremap <Up> <nop>
-noremap <Down> <nop>
-noremap <Left> <nop>
-noremap <Right> <nop>
-
 
 " Fetch plugin
 noremap :fm :FetchManage
@@ -91,17 +81,37 @@ let g:solarized_termcolors=16
 let g:solarized_visibility="low"
 colorscheme solarized
 
-" CommandT Flush
-noremap <C-f> :CommandTFlush<CR>
-
-" rspec
-noremap :rs :!rspec
+"""" KEY MAPPING
+noremap :rs :!rspec              " rspec
+nnoremap <leader>n :NERDTree<CR> " Open NERDTree
 
 " Quick resize window
 nnoremap <silent> <Leader>+ :exe "resize " . (winheight(0) * 3/2)<CR>
 nnoremap <silent> <Leader>- :exe "resize " . (winheight(0) * 2/3)<CR>
 
-"Powerline
-" let g:Powerline_theme="skwp"
-" let g:Powerline_colorscheme="skwp"
-let g:Powerline_symbols="fancy"
+"map arrow key
+noremap <Up> <nop>
+noremap <Down> <nop>
+noremap <Left> <nop>
+noremap <Right> <nop>
+
+"format all
+function! FormatAll()
+  normal ggVG=
+endfunction
+
+noremap <leader>ff :call FormatAll()<CR>
+
+"remap save
+map <C-s> <esc>:w<CR>
+imap <C-s> <esc>:w<CR>
+
+"ruby-xmpfilter
+nmap <buffer> <leader>w <Plug>(xmpfilter-mark)<Plug>(xmpfilter-run)
+" xmap <buffer> <leader>w <Plug>(xmpfilter-mark)<Plug>(xmpfilter-run)
+" imap <buffer> <leader>w <Plug>(xmpfilter-mark)<Plug>(xmpfilter-run)
+"
+" set laststatus=2
+" let g:Powerline_symbols = 'fancy'
+" let g:Powerline_cache_enabled = 1
+" let g:Powerline_cache_file='~/.vim/bundle/powerline/Powerline.cache'

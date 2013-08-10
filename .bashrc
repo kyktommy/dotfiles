@@ -2,6 +2,9 @@
 export PATH=$PATH:/Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home/bin
 export PATH=$PATH:/usr/local/apache-maven/apache-maven-3.0.4/bin:$HOME/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/texbin:/usr/texbin/
 
+#### Play
+export PATH=$PATH:~/workspace/RunableX/play-2.1.1
+
 #### Go
 export GOPATH=$HOME/Code/go
 export PATH=$PATH:$GOPATH/bin
@@ -12,6 +15,14 @@ export EDITOR=vi
 ### POSTGRES
 ###  postgres.app
 export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+
+### Maven, android for android-bootstrap
+export M2_HOME=/usr/share/maven
+export M2_BIN=/usr/share/maven/bin
+export ANDROID_HOME=~/workspace/androidSDK
+export ANDROID_SDK=$ANDROID_HOME
+export ANDROID_TOOLS=$ANDROID_HOME/tools
+export PATH=$PATH:$M2_BIN:$ANDROID_HOME:$ANDROID_TOOLS
 
 # Alias
 alias ll='ls -laG'
