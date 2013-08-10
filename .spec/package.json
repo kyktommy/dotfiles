@@ -1,0 +1,10 @@
+{
+  "name": "TDD",
+  "version": "0.0.1",
+  "description": "TEST TDD",
+  "author": "kyk",
+  "dependencies": {
+    "mocha": "*",
+    "expect.js": "*"
+  }
+}
