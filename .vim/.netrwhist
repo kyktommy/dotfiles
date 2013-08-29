@@ -1,10 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Users/kyktommy/workspace/notes'
-let g:netrw_dirhist_2='/Users/kyktommy/sites/msgbridge'
-let g:netrw_dirhist_3='/Users/kyktommy/Code/jekyllrb/my-awesome-site/_layouts'
-let g:netrw_dirhist_4='/Users/kyktommy/Sites/noteboook/app/models'
-let g:netrw_dirhist_5='/Users/kyktommy'
-let g:netrw_dirhist_6='/Users/kyktommy/workspace/source-code/hubot/bin'
-let g:netrw_dirhist_7='/Users/kyktommy/Code/project'
-let g:netrw_dirhist_8='/Users/kyktommy/.kyk/completions'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/Users/kyktommy/Sites/search_page/app'
+let g:netrw_dirhist_2='/Users/kyktommy/Sites/search_page/app/scripts'
