@@ -14,6 +14,11 @@ set winwidth=79
 filetype on 
 filetype plugin indent on 
 
+" Map previous, next buffer
+noremap <Leader>q :bN<cr>
+noremap <Leader>w :bn<cr>
+noremap <Leader>e <C-^>
+
 " Backup in a central spot - gb
 set backup
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
@@ -115,3 +120,8 @@ nmap <buffer> <leader>w <Plug>(xmpfilter-mark)<Plug>(xmpfilter-run)
 " let g:Powerline_symbols = 'fancy'
 " let g:Powerline_cache_enabled = 1
 " let g:Powerline_cache_file='~/.vim/bundle/powerline/Powerline.cache'
+"
+
+"T-Comment
+nmap <leader><leader><leader> :TComment<cr>
+vmap <leader><leader><leader> :TComment<cr>

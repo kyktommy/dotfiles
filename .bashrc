@@ -33,10 +33,8 @@ alias vi="/usr/local/bin/vi"
 alias e="/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw"
 alias emacs=e
 alias mou="open -a Mou"
-alias blog="cd $HOME/workspace/octopress/"
-alias post="cd $HOME/workspace/octopress/source/_posts/"
-alias sublime="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
-alias st=sublime
+alias blog="cd $HOME/Site/kyktommy.github.io/"
+alias st="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias jist="jist -p -c"
 alias htdocs="cd /Applications/MAMP/htdocs/"
 alias mysql="/Applications/MAMP/Library/bin/mysql -uroot -p"
@@ -88,3 +86,10 @@ export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 
 [ -n "$TMUX" ] && export TERM=xterm-256color
+
+# if [ -x /usr/local/bin/tmux ]; then
+#   tmux attach -t base || tmux new -s base
+# else
+#   echo "no tmux"
+# fi
+
