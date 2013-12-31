@@ -7,9 +7,9 @@ set gfn=Bitsream\ Vera\ Sans\ Mono':h20
 set hlsearch
 set incsearch
 set showmatch
-
 set ignorecase smartcase
 set winwidth=79
+set cursorline
 
 filetype on 
 filetype plugin indent on 
@@ -53,8 +53,8 @@ set backspace=2
 set enc=utf8
 
 "auto change dir with current file
-" set autochdir
-" autocmd BufEnter * silent! lcd %:p:h
+set autochdir
+autocmd BufEnter * silent! lcd %:p:h
 
 
 "clipboard
@@ -68,7 +68,7 @@ let g:user_zen_expandabbr_key = '<c-e>'
 let g:use_zen_complete_tag = 1
 
 " Fetch plugin
-noremap :fm :FetchManage
+" noremap :fm :FetchManage
 
 "indent
 set autoindent
@@ -85,6 +85,10 @@ let g:solarized_termcolors=256
 let g:solarized_termcolors=16
 let g:solarized_visibility="low"
 colorscheme solarized
+
+" set t_Co=256
+" colorscheme grb4
+" colorscheme dracula
 
 """" KEY MAPPING
 noremap :rs :!rspec              " rspec
@@ -104,14 +108,13 @@ noremap <Right> <nop>
 function! FormatAll()
   normal ggVG=
 endfunction
-
 noremap <leader>ff :call FormatAll()<CR>
 
 "remap save
 map <C-s> <esc>:w<CR>
 imap <C-s> <esc>:w<CR>
 
-"ruby-xmpfilter
+"ruby-xmpfilter \w
 nmap <buffer> <leader>w <Plug>(xmpfilter-mark)<Plug>(xmpfilter-run)
 " xmap <buffer> <leader>w <Plug>(xmpfilter-mark)<Plug>(xmpfilter-run)
 " imap <buffer> <leader>w <Plug>(xmpfilter-mark)<Plug>(xmpfilter-run)
@@ -120,8 +123,24 @@ nmap <buffer> <leader>w <Plug>(xmpfilter-mark)<Plug>(xmpfilter-run)
 " let g:Powerline_symbols = 'fancy'
 " let g:Powerline_cache_enabled = 1
 " let g:Powerline_cache_file='~/.vim/bundle/powerline/Powerline.cache'
-"
 
-"T-Comment
+"T-Comment \\\
 nmap <leader><leader><leader> :TComment<cr>
 vmap <leader><leader><leader> :TComment<cr>
+
+"Airline
+" let g:airline#extensions#tabline#enabled = 1
+
+
+" The Silver Searcher
+if executable('ag')
+  " Use ag over grep
+  set grepprg=ag\ --nogroup\ --nocolor
+
+  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+
+  " ag is fast enough that CtrlP doesn't need to cache
+  let g:ctrlp_use_caching = 0
+endif
+nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>

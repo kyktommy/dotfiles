@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/kyktommy/Sites/noteboook'
-let g:netrw_dirhist_2='/Users/kyktommy/Code/ruby/rspec_tuts/spec'
-let g:netrw_dirhist_3='/Users/kyktommy/Code/ruby/behance_project_img_downloader'
-let g:netrw_dirhist_4='/Users/kyktommy/Sites/portfolio'
-let g:netrw_dirhist_5='/Users/kyktommy/Code/node/post_engine'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/kyktommy/.vim/bundle/command-t/ruby/command-t'
+let g:netrw_dirhist_2='/Users/kyktommy/Dropbox/ACS/htdocs/testapp/samples/template'
+let g:netrw_dirhist_3='/Users/kyktommy/Dropbox/ACS/htdocs/testapp/samples/playground'
+let g:netrw_dirhist_4='/Users/kyktommy/Dropbox/ACS/htdocs/testapp/samples/Baccarat_Dick/Baccarat'
+let g:netrw_dirhist_5='/Users/kyktommy/Dropbox/ACS/htdocs/testapp/samples/ccs-test'
+let g:netrw_dirhist_6='/Users/kyktommy/Dropbox/ACS/htdocs/testapp/samples/ccs-test/src'
+let g:netrw_dirhist_7='/Users/kyktommy/.vim/ruby'
+let g:netrw_dirhist_8='/Users/kyktommy/.vim'

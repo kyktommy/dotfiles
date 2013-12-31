@@ -29,7 +29,9 @@ alias ll='ls -laG'
 #alias rake="noglob rake"
 alias rake="bundle exec rake"
 alias pserver="open http://localhost:8000 && python -m SimpleHTTPServer"
-alias vi="/usr/local/bin/vi"
+alias vim="/usr/local/bin/vim"
+alias v="/usr/local/bin/vim"
+alias vi="/usr/local/bin/vim"
 alias e="/usr/local/Cellar/emacs/HEAD/Emacs.app/Contents/MacOS/Emacs -nw"
 alias emacs=e
 alias mou="open -a Mou"
@@ -92,4 +94,3 @@ export LC_ALL="en_US.UTF-8"
 # else
 #   echo "no tmux"
 # fi
-
